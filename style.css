@@ -1,0 +1,82 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/* Header */
+header {
+    background: #ff4d94; /* Warna pink */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff4d94; /* Warna pink */
+    margin-bottom: 10px;
+}
+
+/* Kotak */
+.kotak {
+    background: rgba(255, 77, 148, 0.2); /* Pink neon */
+    border: 2px solid #ff4d94; /* Warna pink */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.kotak:hover {
+    transform: scale(1.05); /* Efek hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ff4d94; /* Warna pink */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
